@@ -21,8 +21,8 @@ module.exports = {
   solidity: "0.8.0",
   networks: {
     rinkeby: {
-      url: process.env.ALCHEMY_STAGING_BETA_KEY,
-      accounts: [process.env.METAMASK_PRIVATE_KEY],
-    },
+      url: process.env.ALCHEMY_STAGING_BETA_API_KEY_URL,
+      accounts: [process.env.METAMASK_ACCOUNT_PRIVATE_KEY],
+    }
   },
 };
