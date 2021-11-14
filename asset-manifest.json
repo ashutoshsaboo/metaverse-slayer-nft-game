@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/metaverse-slayer-nft-game/static/css/main.f1a8c77a.chunk.css",
-    "main.js": "/metaverse-slayer-nft-game/static/js/main.782cc3d5.chunk.js",
-    "main.js.map": "/metaverse-slayer-nft-game/static/js/main.782cc3d5.chunk.js.map",
+    "main.js": "/metaverse-slayer-nft-game/static/js/main.f05cb31a.chunk.js",
+    "main.js.map": "/metaverse-slayer-nft-game/static/js/main.f05cb31a.chunk.js.map",
     "runtime-main.js": "/metaverse-slayer-nft-game/static/js/runtime-main.3ab83a74.js",
     "runtime-main.js.map": "/metaverse-slayer-nft-game/static/js/runtime-main.3ab83a74.js.map",
     "static/js/2.886f1b8b.chunk.js": "/metaverse-slayer-nft-game/static/js/2.886f1b8b.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.3ab83a74.js",
     "static/js/2.886f1b8b.chunk.js",
     "static/css/main.f1a8c77a.chunk.css",
-    "static/js/main.782cc3d5.chunk.js"
+    "static/js/main.f05cb31a.chunk.js"
   ]
 }
