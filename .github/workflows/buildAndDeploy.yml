@@ -15,7 +15,10 @@ jobs:
         id: cache_npm
         uses: actions/cache@v2
         with:
-          path: ~/.npm
+          path: |
+            ~/.npm
+            **/node_modules
+            **/.eslintcache        
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
