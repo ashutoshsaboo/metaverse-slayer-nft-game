@@ -1,7 +1,7 @@
 {
   "name": "metaverse-slayer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Metaverse slayer - my first NFT game!",
   "homepage": "https://ashutoshsaboo.github.io/metaverse-slayer-nft-game/",
   "scripts": {
     "copy-contract": "cp ./artifacts/contracts/MetaverseSlayerGame.sol/MetaverseSlayerGame.json ./src/utils/",

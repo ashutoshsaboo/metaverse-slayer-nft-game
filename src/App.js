@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import twitterLogo from './assets/twitter-logo.svg';
+import githubLogo from './assets/github-logo.png'
 import './App.css';
 import SelectCharacter from './Components/SelectCharacter';
 import { CONTRACT_ADDRESS, transformCharacterData } from './utils/constants';
@@ -9,7 +9,7 @@ import Arena from './Components/Arena';
 import LoadingIndicator from './Components/LoadingIndicator';
 
 // Constants
-const GITHUB_HANDLE = 'test';
+const GITHUB_HANDLE = 'ashutoshsaboo';
 const GITHUB_LINK = `https://github.com/${GITHUB_HANDLE}`;
 
 const App = () => {
@@ -206,7 +206,7 @@ const App = () => {
           {renderContent()}          
         </div>
         <div className="footer-container">
-          <img alt="Github Logo" className="github-logo" src={twitterLogo} />
+          <img alt="Github Logo" className="twitter-logo" src={githubLogo} />
           <a
             className="footer-text"
             href={GITHUB_LINK}
