@@ -2,11 +2,11 @@
   "name": "metaverse-slayer",
   "version": "1.0.0",
   "description": "",
-  "homepage": "/web3/metaverse-slayer/",
+  "homepage": "https://ashutoshsaboo.github.io/metaverse-slayer-nft-game/",
   "scripts": {
     "copy-contract": "cp ./artifacts/contracts/MetaverseSlayerGame.sol/MetaverseSlayerGame.json ./src/utils/",
     "start": "npm run copy-contract && react-scripts start",
-    "build": "rm -rf build && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -34,7 +34,7 @@
     "history": "^5.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
