@@ -5,23 +5,11 @@ import metaverseSlayerGame from '../../utils/MetaverseSlayerGame.json';
 import './Arena.css';
 import LoadingIndicator from '../LoadingIndicator';
 
-/*
- * We pass in our characterNFT metadata so we can a cool card in our UI
- */
 const Arena = ({ characterNFT, setCharacterNFT }) => {
   // State
   const [gameContract, setGameContract] = useState(null);
-  /*
-  * State that will hold our boss metadata
-  */
   const [boss, setBoss] = useState(null);
-  /*
-  * We are going to use this to add a bit of fancy animations during attacks
-  */
   const [attackState, setAttackState] = useState('');
-  /*
-  * Toast state management
-  */
   const [showToast, setShowToast] = useState(false);
 
   // Actions
@@ -34,7 +22,6 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
         await attackTxn.wait();
         console.log('attackTxn:', attackTxn);
         setAttackState('hit');
-
         /*
         * Set your toast state to true and then false 5 seconds later
         */
@@ -119,16 +106,13 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
 
   return (
     <div className="arena-container">
-      {/* Add your toast HTML right here */}
       {boss && characterNFT && (
         <div id="toast" className={showToast ? 'show' : ''}>
           <div id="desc">{`💥 ${boss.name} was hit for ${characterNFT.attackDamage}!`}</div>
         </div>
       )}
-      {/* Replace your Boss UI with this */}
       {boss && (
         <div className="boss-container">
-          {/* Add attackState to the className! After all, it's just class names */}
           <div className={`boss-content ${attackState}`}>
             <h2>🔥 {boss.name} 🔥</h2>
             <div className="image-content">
@@ -144,7 +128,6 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
               {`💥 Attack ${boss.name}`}
             </button>
           </div>
-          {/* Add this right under your attack button */}
           {attackState === 'attacking' && (
             <div className="loading-indicator">
               <LoadingIndicator />
@@ -154,7 +137,6 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
         </div>
       )}
 
-      {/* Replace your Character UI with this */}
       {characterNFT && (
         <div className="players-container">
           <div className="player-container">

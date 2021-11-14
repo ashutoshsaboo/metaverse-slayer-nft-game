@@ -8,27 +8,14 @@ import { ethers } from 'ethers';
 import Arena from './Components/Arena';
 import LoadingIndicator from './Components/LoadingIndicator';
 
-// Constants
 const GITHUB_HANDLE = 'ashutoshsaboo';
 const GITHUB_LINK = `https://github.com/${GITHUB_HANDLE}`;
 
 const App = () => {
-  /*
-   * Just a state variable we use to store our user's public wallet. Don't forget to import useState.
-   */
   const [currentAccount, setCurrentAccount] = useState(null);
-  /*
-  * Right under current account, setup this new state property
-  */
   const [characterNFT, setCharacterNFT] = useState(null);
-  /*
-  * New state property added here
-  */
   const [isLoading, setIsLoading] = useState(false);
 
-  /*
-   * Start by creating a new action that we will run on component load
-   */
   // Actions
   const checkIfWalletIsConnected = async () => {
     try {
@@ -47,13 +34,13 @@ const App = () => {
       } else {
         console.log('We have the ethereum object', ethereum);
         /*
-          * Check if we're authorized to access the user's wallet
-          */
+        * Check if we're authorized to access the user's wallet
+        */
         const accounts = await ethereum.request({ method: 'eth_accounts' });
 
         /*
-          * User can have multiple authorized accounts, we grab the first one if its there!
-          */
+        * User can have multiple authorized accounts, we grab the first one if its there!
+        */
         if (accounts.length !== 0) {
           const account = accounts[0];
           console.log('Found an authorized account:', account);
@@ -111,9 +98,6 @@ const App = () => {
   
   };
 
-  /*
-   * Implement your connectWallet method here
-   */
   const connectWalletAction = async () => {
     try {
       const { ethereum } = window;
@@ -151,9 +135,6 @@ const App = () => {
     checkIfWalletIsConnected();
   }, []);
 
-  /*
-  * Add this useEffect right under the other useEffect where you are calling checkIfWalletIsConnected
-  */
   useEffect(() => {
     /*
     * The function we will call that interacts with out smart contract
@@ -200,9 +181,6 @@ const App = () => {
         <div className="header-container">
           <p className="header gradient-text">⚔️ Metaverse Slayer ⚔️</p>
           <p className="sub-text">Team up to protect the Metaverse!</p>
-          {/* This is where our button and image code used to be!
-          *	Remember we moved it into the render method.
-          */}
           {renderContent()}          
         </div>
         <div className="footer-container">

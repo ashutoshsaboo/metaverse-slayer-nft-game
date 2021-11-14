@@ -5,15 +5,9 @@ import { CONTRACT_ADDRESS, transformCharacterData } from '../../utils/constants'
 import metaverseSlayerGame from '../../utils/MetaverseSlayerGame.json';
 import LoadingIndicator from '../LoadingIndicator';
 
-/*
- * Don't worry about setCharacterNFT just yet, we will talk about it soon!
- */
 const SelectCharacter = ({ setCharacterNFT }) => {
   const [characters, setCharacters] = useState([]);
   const [gameContract, setGameContract] = useState(null);
-  /*
-  * New minting state property we will be using
-  */
   const [mintingCharacter, setMintingCharacter] = useState(false);
   
   // Actions
@@ -122,7 +116,7 @@ const SelectCharacter = ({ setCharacterNFT }) => {
     }
     return () => {
       /*
-       * When your component unmounts, let;s make sure to clean up this listener
+       * When your component unmounts, let's make sure to clean up this listener
        */
       if (gameContract) {
         gameContract.off('CharacterNFTMinted', onCharacterMint);
