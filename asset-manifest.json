@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/web3/metaverse-slayer/static/css/main.f1a8c77a.chunk.css",
-    "main.js": "/web3/metaverse-slayer/static/js/main.ada67c94.chunk.js",
-    "main.js.map": "/web3/metaverse-slayer/static/js/main.ada67c94.chunk.js.map",
+    "main.js": "/web3/metaverse-slayer/static/js/main.587f3f3d.chunk.js",
+    "main.js.map": "/web3/metaverse-slayer/static/js/main.587f3f3d.chunk.js.map",
     "runtime-main.js": "/web3/metaverse-slayer/static/js/runtime-main.e78b2e98.js",
     "runtime-main.js.map": "/web3/metaverse-slayer/static/js/runtime-main.e78b2e98.js.map",
-    "static/js/2.7df68d93.chunk.js": "/web3/metaverse-slayer/static/js/2.7df68d93.chunk.js",
-    "static/js/2.7df68d93.chunk.js.map": "/web3/metaverse-slayer/static/js/2.7df68d93.chunk.js.map",
+    "static/js/2.4e71717b.chunk.js": "/web3/metaverse-slayer/static/js/2.4e71717b.chunk.js",
+    "static/js/2.4e71717b.chunk.js.map": "/web3/metaverse-slayer/static/js/2.4e71717b.chunk.js.map",
     "index.html": "/web3/metaverse-slayer/index.html",
     "static/css/main.f1a8c77a.chunk.css.map": "/web3/metaverse-slayer/static/css/main.f1a8c77a.chunk.css.map",
-    "static/js/2.7df68d93.chunk.js.LICENSE.txt": "/web3/metaverse-slayer/static/js/2.7df68d93.chunk.js.LICENSE.txt",
+    "static/js/2.4e71717b.chunk.js.LICENSE.txt": "/web3/metaverse-slayer/static/js/2.4e71717b.chunk.js.LICENSE.txt",
     "static/media/twitter-logo.a8a75254.svg": "/web3/metaverse-slayer/static/media/twitter-logo.a8a75254.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e78b2e98.js",
-    "static/js/2.7df68d93.chunk.js",
+    "static/js/2.4e71717b.chunk.js",
     "static/css/main.f1a8c77a.chunk.css",
-    "static/js/main.ada67c94.chunk.js"
+    "static/js/main.587f3f3d.chunk.js"
   ]
 }
