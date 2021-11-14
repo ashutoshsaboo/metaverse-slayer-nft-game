@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import githubLogo from './assets/github-logo.png'
+import githubLogo from './assets/github-logo.svg'
 import './App.css';
 import SelectCharacter from './Components/SelectCharacter';
 import { CONTRACT_ADDRESS, transformCharacterData } from './utils/constants';

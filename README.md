@@ -16,3 +16,10 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+## For deploying smart contract use these commands:
+
+```shell
+npx hardhat run scripts/run.js -> local blockchain deployment
+npx hardhat run scripts/deploy.js --network rinkeby -> deploy on rinkeby
+```
