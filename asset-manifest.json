@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/metaverse-slayer-nft-game/static/css/main.f1a8c77a.chunk.css",
-    "main.js": "/metaverse-slayer-nft-game/static/js/main.f05cb31a.chunk.js",
-    "main.js.map": "/metaverse-slayer-nft-game/static/js/main.f05cb31a.chunk.js.map",
+    "main.js": "/metaverse-slayer-nft-game/static/js/main.21a14d62.chunk.js",
+    "main.js.map": "/metaverse-slayer-nft-game/static/js/main.21a14d62.chunk.js.map",
     "runtime-main.js": "/metaverse-slayer-nft-game/static/js/runtime-main.3ab83a74.js",
     "runtime-main.js.map": "/metaverse-slayer-nft-game/static/js/runtime-main.3ab83a74.js.map",
-    "static/js/2.886f1b8b.chunk.js": "/metaverse-slayer-nft-game/static/js/2.886f1b8b.chunk.js",
-    "static/js/2.886f1b8b.chunk.js.map": "/metaverse-slayer-nft-game/static/js/2.886f1b8b.chunk.js.map",
+    "static/js/2.9b2ff2c9.chunk.js": "/metaverse-slayer-nft-game/static/js/2.9b2ff2c9.chunk.js",
+    "static/js/2.9b2ff2c9.chunk.js.map": "/metaverse-slayer-nft-game/static/js/2.9b2ff2c9.chunk.js.map",
     "index.html": "/metaverse-slayer-nft-game/index.html",
     "static/css/main.f1a8c77a.chunk.css.map": "/metaverse-slayer-nft-game/static/css/main.f1a8c77a.chunk.css.map",
-    "static/js/2.886f1b8b.chunk.js.LICENSE.txt": "/metaverse-slayer-nft-game/static/js/2.886f1b8b.chunk.js.LICENSE.txt",
+    "static/js/2.9b2ff2c9.chunk.js.LICENSE.txt": "/metaverse-slayer-nft-game/static/js/2.9b2ff2c9.chunk.js.LICENSE.txt",
     "static/media/github-logo.47824d0e.svg": "/metaverse-slayer-nft-game/static/media/github-logo.47824d0e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3ab83a74.js",
-    "static/js/2.886f1b8b.chunk.js",
+    "static/js/2.9b2ff2c9.chunk.js",
     "static/css/main.f1a8c77a.chunk.css",
-    "static/js/main.f05cb31a.chunk.js"
+    "static/js/main.21a14d62.chunk.js"
   ]
 }
