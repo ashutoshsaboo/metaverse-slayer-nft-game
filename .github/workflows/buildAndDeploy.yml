@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout package 🛎️
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v2.4.0
       - name: Cache NPM dependencies
         id: cache_npm
         uses: actions/cache@v2
